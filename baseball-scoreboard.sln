@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baseball-scoreboard", "baseball-scoreboard.vcxproj", "{77909A28-135F-4FF1-BDDD-544169425120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77909A28-135F-4FF1-BDDD-544169425120}.Debug|x64.ActiveCfg = Debug|x64
+		{77909A28-135F-4FF1-BDDD-544169425120}.Debug|x64.Build.0 = Debug|x64
+		{77909A28-135F-4FF1-BDDD-544169425120}.Debug|x86.ActiveCfg = Debug|Win32
+		{77909A28-135F-4FF1-BDDD-544169425120}.Debug|x86.Build.0 = Debug|Win32
+		{77909A28-135F-4FF1-BDDD-544169425120}.Release|x64.ActiveCfg = Release|x64
+		{77909A28-135F-4FF1-BDDD-544169425120}.Release|x64.Build.0 = Release|x64
+		{77909A28-135F-4FF1-BDDD-544169425120}.Release|x86.ActiveCfg = Release|Win32
+		{77909A28-135F-4FF1-BDDD-544169425120}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08918FBC-62E6-4A0F-886F-3846ECD3ACBF}
+	EndGlobalSection
+EndGlobal

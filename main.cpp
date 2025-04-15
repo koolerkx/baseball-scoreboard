@@ -2,6 +2,9 @@
 
 int main()
 {
-    print_board();
+    ScoreBoard* scoreboard = ScoreBoard::getInstance();
+
+    scoreboard->print();
+
     return 0;   
 }

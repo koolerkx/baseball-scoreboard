@@ -2,9 +2,11 @@
 #include "team.h"
 
 class ScoreBoard {
+    ScoreBoard();
+    static ScoreBoard* scoreboard_;
 public:
     void print();
-    ScoreBoard();
+    static ScoreBoard* getInstance();
 private:
     Team team_home;
     Team team_away;

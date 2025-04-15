@@ -8,6 +8,6 @@ public:
     void print();
     static ScoreBoard* getInstance();
 private:
-    Team team_home;
-    Team team_away;
+    Team team_home = Team{ "home" };
+    Team team_away = Team{ "away" };
 };

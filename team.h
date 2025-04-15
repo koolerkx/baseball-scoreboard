@@ -1,8 +1,10 @@
 #pragma once
 #include <array>
+#include <string>
 
 class Team {
 	public:
-		std::array<char, 4> name{};
+		Team(std::string team_name);
+		std::string team_name{};
 };
 

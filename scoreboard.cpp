@@ -1,6 +1,7 @@
+#include "scoreboard.h"
 #include <iostream>
 
-void print_board() {
+void ScoreBoard::print() {
     std::cout << "------------------------------------------" << "\n";
     std::cout << "|TEAM| 1| 2| 3| 4| 5| 6| 7| 8| 9| R| H| E|" << "\n";
     std::cout << "|HOME| 0| 0| 0| 0| 0| 0| 0| 0| 0| 0| 0| 0|" << "\n";
@@ -10,4 +11,10 @@ void print_board() {
     std::cout << "|S:ZZ    | 2B:_ |" << "\n";
     std::cout << "|O:ZZ    | 3B:_ |" << "\n";
     std::cout << "------------------------------------------" << "\n";
+}
+
+ScoreBoard::ScoreBoard()
+{
+    this->team_home = Team();
+    this->team_away = Team();
 }
